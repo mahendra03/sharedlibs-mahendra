@@ -1,4 +1,4 @@
-def call(){
+def call(nexus){
 def pom = readMavenPom file: 'pom.xml'
  def repo = pom.version.equals("release") ? "snapshot":"release"
  def groupId = pom.groupId
