@@ -12,4 +12,4 @@ def pom = readMavenPom file: 'pom.xml'
  repository: repo, 
  version: pom.version
 }
-© 2021 GitHub, Inc.
+
